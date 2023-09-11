@@ -1,11 +1,12 @@
-import {Text} from 'react-native';
+import 'react-native-gesture-handler';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
+import MainDraweNavigator from './src/navigators/MainDraweNavigator';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Text>SaveMyWalletApp</Text>
+      <MainDraweNavigator />
     </NavigationContainer>
   );
 };
